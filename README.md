@@ -4,11 +4,28 @@ Complete implementation of Apache Spark lab covering RDDs, DataFrames, SQL opera
 
 ## Quick Start
 
-### 1. Prerequisites
+## Prerequisites
 
-- Java 17
+- Java 17 or higher
 - Python 3.8+
 - Apache Spark 4.0.1
+
+**Note:** Ensure `JAVA_HOME` is set correctly:
+```bash
+# Check Java installation
+java -version
+
+# If needed, set JAVA_HOME (adjust path to your Java installation)
+export JAVA_HOME=/path/to/your/jdk
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+**For Spark:**
+```bash
+# Set SPARK_HOME if needed
+export SPARK_HOME=/opt/spark
+export PATH=$SPARK_HOME/bin:$PATH
+```
 
 ### 2. Setup
 ```bash
